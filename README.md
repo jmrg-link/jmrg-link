@@ -102,7 +102,7 @@ Pasarela de pago sobre la API de Stripe.
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 
-- Checkout con tarjeta, códigos promocionales y soporte multi-moneda.
+- Checkout con tarjeta, códigos promocionales y soporte multimoneda.
 - Integración directa contra la API de Stripe, sin intermediarios.
 
 ### [Pokédex Next](https://github.com/jmrg-link/pokedex-next)
