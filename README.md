@@ -6,9 +6,9 @@ Backend con Node.js y TypeScript en sistemas de pago, control de accesos y vendi
 desatendidas contra dispositivo físico, donde la disponibilidad y la recuperación ante fallo son
 requisito, no mejora.
 
-Uso asistentes a diario. Les paso lo mecánico y me quedo con lo que decide el resultado: qué se
-construye y si lo que sale sirve. Lo que entra en un repositorio lo he leído antes de que entre, y
-si algo falla en producción respondo yo.
+Trabajo con IA todos los días. Le paso la implementación que ya sé cómo va a quedar antes de
+escribirla, y me quedo con decidir qué se construye y si lo que sale sirve. No subo nada que no
+haya leído, y si algo se rompe en producción respondo yo.
 
 ---
 
