@@ -6,12 +6,15 @@ Backend con Node.js y TypeScript en sistemas de pago, control de accesos y vendi
 desatendidas contra dispositivo físico, donde la disponibilidad y la recuperación ante fallo son
 requisito, no mejora.
 
-La IA cambió mi forma de trabajar: dedico menos tiempo a la implementación mecánica y más a definir
-el producto y los requisitos de negocio antes de escribir código.
+Uso asistentes a diario. Les paso lo mecánico y me quedo con lo que decide el resultado: qué se
+construye y si lo que sale sirve. Lo que entra en un repositorio lo he leído antes de que entre, y
+si algo falla en producción respondo yo.
 
 ---
 
 ## 🛠️ Stack
+
+**Backend**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -19,18 +22,53 @@ el producto y los requisitos de negocio antes de escribir código.
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
+![TCP/UDP](https://img.shields.io/badge/TCP/UDP-4A5568?style=flat)
+![CoAP](https://img.shields.io/badge/CoAP-4A5568?style=flat)
+
+**Datos**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-4A5568?style=flat&logo=prisma&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+**Mensajería y colas**
+
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![NATS](https://img.shields.io/badge/NATS-27AAE1?style=flat&logo=natsdotio&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-DC382D?style=flat&logo=redis&logoColor=white)
+
+**Infraestructura**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white)
+![KVM](https://img.shields.io/badge/KVM-C9302C?style=flat)
+![Baremetal](https://img.shields.io/badge/Baremetal-4A5568?style=flat)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![AWS_CDK](https://img.shields.io/badge/AWS_CDK-232F3E?style=flat)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![OVHcloud](https://img.shields.io/badge/OVHcloud-123F6D?style=flat&logo=ovh&logoColor=white)
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat&logo=traefikproxy&logoColor=white)
+![Cloudflare_Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflareworkers&logoColor=white)
+
+**Sistemas**
+
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
+![Ubuntu_Server](https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat&logo=ubuntu&logoColor=white)
+![CentOS](https://img.shields.io/badge/CentOS-262577?style=flat&logo=centos&logoColor=white)
+
+**Observabilidad**
+
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-F46800?style=flat&logo=grafana&logoColor=white)
+![Thanos](https://img.shields.io/badge/Thanos-6D41FF?style=flat&logo=thanos&logoColor=white)
+
+**Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
@@ -67,6 +105,7 @@ Mi sitio. Backend y frontend en repositorios públicos.
 - Separación de lecturas y escrituras con CQRS lite, sobre Fastify 5 con HTTP/2 y Mongoose 9.
 - El contenido no reside en el código: el frontend lo consume de una API REST, así que publicar no requiere despliegue.
 - Internacionalización en español e inglés con rutas traducidas, sobre App Router y React 19.
+- Las imágenes se sirven desde un Worker propio en el edge que firma las peticiones al bucket con AWS SigV4, implementada a mano con `crypto.subtle`, y las cachea con `immutable` a treinta días.
 
 ### [Express Clean Code Template](https://github.com/jmrg-link/express_clean_code_template)
 
