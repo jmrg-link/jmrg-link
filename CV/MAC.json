@@ -1,0 +1,503 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "ES",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Jesús María ",
+      "surnames": "Rico González ",
+      "title": "DevOps | Dev Frontend y Backend en Js|Ts. Docker | Innovando con React (Web & Native), Next.js, Node.js, Express, NestJS y Flutter Mobile (NoSQL DB). Link: jmrg.dev",
+      "description": "Acerca de mí: Puedes visitarme en https://jmrg.dev/es  Soy un Desarrollador Frontend y Backend con más de 8 años de experiencia en el diseño y desarrollo de aplicaciones web y móviles. Me especializo en la creación de interfaces dinámicas y eficientes utilizando tecnologías modernas como React, Next.js y Vanilla JavaScript en el frontend, mientras que en el backend tengo una sólida experiencia en la construcción de APIs y sistemas escalables con NestJS, Express y Django.Mi enfoque profesional se basa en la optimización del código, la implementación de buenas prácticas como Clean Code, pruebas automatizadas y despliegues CI/CD, asegurando así la calidad y estabilidad del software. Siempre busco aprender y mejorar mis habilidades, manteniéndome actualizado en las últimas tendencias tecnológicas para aportar soluciones innovadoras a los proyectos en los que participo.Habilidades Técnicas:Desarrollo Frontend:Creación de aplicaciones interactivas con React, Next.js, Vanilla JavaScript, Vue y Angular.Uso de ES6+, TypeScript y estándares modernos de desarrollo web.Implementación de estilos y frameworks CSS/SCSS como Bulma, Bootstrap y Tailwind.Desarrollo de aplicaciones móviles con React Native y Flutter.Desarrollo Backend:Desarrollo de APIs escalables y eficientes con NestJS, Express, Django y GraphQL.Integración de Socket.io para aplicaciones en tiempo real.Gestión de bases de datos SQL y NoSQL: PostgreSQL, MongoDB, Firebase, Sequelize, TypeORM.Despliegue y administración de servidores en entornos Linux (Ubuntu Server, Debian, CentOS).Implementación de arquitecturas basadas en microservicios y Serverless (Firebase, Heroku, MongoDB Realm).DevOps &amp; Infraestructura:Creación y gestión de imágenes Docker y pruebas de contenedores.Orquestación de contenedores con Kubernetes.Implementación de CI/CD con GitHub Actions, Jenkins.Gestión de repositorios con GitHub y GitLab.",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/22/fa788feb-4d1e-4846-bc33-a1d5dd40227e_37002.jpg",
+        "alt": "37002.jpg"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJ4x60DS2JQQ0Rz8L9kb39zlY)",
+        "country": "España",
+        "region": "Comunidad de Madrid",
+        "municipality": "Alcorcón"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/jesus-maria-rico-gonzalez/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/jmrg-link"
+      },
+      {
+        "type": "other",
+        "URL": "https://jmrg.dev/es",
+        "description": "Portfolio y Bio"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Kairós Digital Solutions S.L."
+        },
+        "roles": [
+          {
+            "name": "Desarrollador de back-end",
+            "startDate": "2025-09-01",
+            "finishDate": "2025-12-01"
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "OWQLO"
+        },
+        "roles": [
+          {
+            "name": "Senior Backend ",
+            "startDate": "2024-12-01",
+            "finishDate": "2025-05-01",
+            "challenges": [
+              {
+                "description": "Desarrollo de Devops. Integración de contenedores docker. Mantenimiento y Desarrollo de RestFull API Administración de Baremetal Server Dedicado. Instancias Proxmox Personalizadas. Diseño de arquitectura Backend Nestjs , Express. Despliegue de Servicios CI/CD en entorno de Desarrollo. Gestión de bucket por regiones AWS. Despliegue de contenido multimedia. Documentación técnica y soporte."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Narranz Soluciones"
+        },
+        "roles": [
+          {
+            "name": "Senior Backend Developer",
+            "startDate": "2022-10-01",
+            "finishDate": "2024-12-01",
+            "challenges": [
+              {
+                "description": "Devops | Backend : Js , Ts | Frontend : Js , Ts"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Narranz Soluciones"
+        },
+        "roles": [
+          {
+            "name": "Desarrollador de software",
+            "startDate": "2019-12-01",
+            "finishDate": "2020-07-01",
+            "challenges": [
+              {
+                "description": "- Sistemas embebidos Linux firm :Yocto (BSP + Custom Firmw) * Raspberry Pi: Zero, 3, 4. (Yocto Compiled: Raspbian, Ubuntu core, Mode Kiosk) * NXP- IMX6-Rex-Yocto, (Ubuntu Core) * Banana Pi: (Raspbian, Ubuntu Server, Mode Kiosk) * OrangePi: (Default System OPI : Custom Firmware and Boot System, Mode Kiosk)  - Proyectos Nodejs + Raspi: * Front Panel: Jquery + Ecmascript  * Adobe XD : Front * Protocolos Raw data in electronic: uart, i2c, gpio. * Express: routes and api token * Sockets.  - Proyectos Angular PWA & WEB Typescript. * Web Panel Custom : Front and Back. * Express: routes and api token * Adobe XD : Front * Raw Data Protocol :Tcp + Udp * Mqtt protocol: Tcp + Udp * Nosql bbdd. * Firebase Google :Realtime + Firestore * Vps Custom Linux kernel  * Docker app custom :Node, Angular , Shell  Testing Devops Gitlab Custom. Integrations Custom Documentation .md in proyects ."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "ZENER GRUPO"
+        },
+        "roles": [
+          {
+            "name": "Engineering Sw & Hw",
+            "startDate": "2018-09-01",
+            "finishDate": "2019-11-01",
+            "challenges": [
+              {
+                "description": "* Departamento I+D * \" Altium 17 ,18 , 19 & CIRCUIT STUDIO \" - Diseño PCB + Fabricación Pcb + Seleccion de Componentes + Generación Fichero Gerber - Fabricación en Europa , España Y China . - Prototipado + Soldadura Smd , Aire Caliente, Reflow oven, Pencil. - Pruebas en Pcb Termicas - Programación Pcb Firmware - Comunicación Inalambrica Rf 2.4 Ghz BLE - 13.56 Mhz RFID. - Instalacion y Configuracion Servidor Privado por VPN."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Chargy Technologies"
+        },
+        "roles": [
+          {
+            "name": "Engineering Sw & Hw",
+            "startDate": "2017-01-01",
+            "finishDate": "2017-12-01",
+            "challenges": [
+              {
+                "description": "* Departamento I+D * \" Altium 17 & 18 \" - Diseño PCB + Fabricación Pcb + Seleccion de Componentes + Generación Fichero Gerber - Fabricación en Europa y España. - Prototipado + Soldadura Smd , Aire Caliente, Reflow oven, Pencil. - Pruebas en Pcb Termicas - Programación Pcb - Comunicación Inalambrica Rf 2.4 Ghz Wifi. - Configuracion Router Mikrotik . - Configuracion (G.C.P) Google Cloud Platform + G-Suite. (Servidor Web + Email + Sistema de Pago automatizado)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "arvato teleservice"
+        },
+        "roles": [
+          {
+            "name": "Especialista técnico",
+            "startDate": "2012-01-01",
+            "finishDate": "2012-06-01"
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Ministerio de Defensa Español"
+        },
+        "roles": [
+          {
+            "name": "Electronica en Telecomunicaciones",
+            "startDate": "2002-09-01",
+            "finishDate": "2022-10-01",
+            "challenges": [
+              {
+                "description": "* Departamento I+D * \" Altium 17 ,18 , 19 & CIRCUIT STUDIO \" - Diseño PCB + Selección de Componentes + Generación Fichero Gerber  - Prototipado + Soldadura Smd , Aire Caliente, Reflow oven, Pencil. - Pruebas en Pcb Térmicas - Programación Pcb Firmware - Pruebas de Protocolos : Bluetooth , RFID - NFC , WIFI , \"2G , 3G, 4G\" , Lora. - Instalacion y Configuracion Servidor Privado. - Utilización Maquinaria 3D -  Diseño 3D. - Pruebas de Espectro en Laboratorio Sistemas de Telecomunicaciones y Redes Militares. Sistemas de Redes Civiles"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "AWS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Android",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Android Studio",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Angular2+",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Apple iOS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Bash",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Cypress",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Django",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Express",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Flutter",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Google Cloud",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Jest",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MERN Stack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Microsoft Office 365",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MongoDB",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Mongoose",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NextJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Proxmox",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React Native",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Shell",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Stripe",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeORM",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Unix",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Vue",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "nestJS",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "ADMINISTRADOR DE MONGODB Y ATLAS",
+        "startDate": "2021-09-01",
+        "institution": {
+          "name": "C.F. en Tecnologías de la información y las Comunicaciones de Madrid"
+        },
+        "finishDate": "2021-11-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Adobe Máster Iberica",
+        "startDate": "2014-01-01",
+        "institution": {
+          "name": "El Centro de Formación CICE en Madrid (España)"
+        },
+        "finishDate": "2015-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Auxiliar técnico Electronica de Consumo",
+        "startDate": "2002-01-01",
+        "institution": {
+          "name": "Politécnico Militar É.T."
+        },
+        "finishDate": "2004-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "DESARROLLO CON MEAN PARA WEB Y CLOUD (FULL STACK) + MONGODB UNIVERSITY",
+        "startDate": "2020-01-01",
+        "institution": {
+          "name": "C.F. en Tecnologías de la información y las Comunicaciones de Madrid"
+        },
+        "finishDate": "2020-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "DESARROLLO DE APLICACIONES CON TECNOLOGÍAS WEB (IFCD0110)",
+        "startDate": "2014-01-01",
+        "institution": {
+          "name": "Servicio público de Empleo Estatal"
+        },
+        "finishDate": "2015-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Diploma Curso Altium UCM MADRID ",
+        "startDate": "2017-01-01",
+        "institution": {
+          "name": "ALTIUM DISEÑO PCB & PDN "
+        },
+        "finishDate": "2017-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "ESO",
+        "startDate": "2001-01-01",
+        "institution": {
+          "name": "IES LAS MUSAS "
+        },
+        "finishDate": "2002-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Javascript ECMA6 Node.JS",
+        "startDate": "2016-01-01",
+        "institution": {
+          "name": "FICTIZIA"
+        },
+        "finishDate": "2016-01-01"
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/jesus-maria-rico-gonzalez/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/jmrg-link",
+          "type": "github"
+        }
+      ],
+      "contactMails": [
+        "elmesl@gmail.com"
+      ]
+    },
+    "preferences": {
+      "preferredRoles": [
+        "Backend Developer",
+        "Frontend Developer",
+        "Full-stack Developer"
+      ]
+    },
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": [
+        "permanent"
+      ]
+    }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Express",
+        "type": "technology"
+      },
+      {
+        "name": "MERN Stack",
+        "type": "technology"
+      },
+      {
+        "name": "NextJS",
+        "type": "technology"
+      },
+      {
+        "name": "NodeJS",
+        "type": "technology"
+      },
+      {
+        "name": "React Native",
+        "type": "technology"
+      }
+    ]
+  }
+}
