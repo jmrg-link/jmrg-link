@@ -107,6 +107,25 @@ Mi sitio. Backend y frontend en repositorios públicos.
 - Internacionalización en español e inglés con rutas traducidas, sobre App Router y React 19.
 - Las imágenes se sirven desde un Worker propio en el edge que firma las peticiones al bucket con AWS SigV4, implementada a mano con `crypto.subtle`, y las cachea con `immutable` a treinta días.
 
+### [Simulador PRL](https://github.com/jmrg-link/simulador-prl) · [demo y diagramas](https://jmrg-link.github.io/simulador-prl/)
+
+Formación en prevención de riesgos laborales con gafas VR simuladas en el navegador, con el instructor siguiendo al alumno en directo.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js_24-339933?style=flat&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
+![three.js](https://img.shields.io/badge/three.js-000000?style=flat&logo=threedotjs&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat&logo=webrtc&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat&logo=ffmpeg&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat&logo=blender&logoColor=white)
+
+- El instructor ve la vista del alumno por WebRTC con menos de un segundo de retardo, con señalización propia por WebSocket.
+- Los espectadores la siguen por HLS: el lienzo viaja por WebSocket a FFmpeg, se publica por RTMP firmado y se empaqueta en segmentos de un segundo.
+- Cada sesión queda grabada en MP4 con un capítulo por riesgo identificado, sin recodificar.
+- La escena se genera con scripts de Blender sobre assets CC0 y la fotografía HDRI de una nave real.
+- El servidor corrige cada decisión y no revela la respuesta hasta cerrar la sesión.
+
 ### [Express Clean Code Template](https://github.com/jmrg-link/express_clean_code_template)
 
 Plantilla base para proyectos destinados a producción.
