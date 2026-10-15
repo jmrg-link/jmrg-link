@@ -145,6 +145,24 @@ API de usuarios y pedidos con NestJS 12 que funciona con MongoDB o con PostgreSQ
 - Índices compuestos según la regla ESR, los mismos en MongoDB y en PostgreSQL.
 - Documentado con [diagramas interactivos](https://jmrg-link.github.io/nest-hexagonal-adapters/), el [contrato REST en Swagger](https://jmrg-link.github.io/nest-hexagonal-adapters/api/) y las [operaciones GraphQL con capturas](https://github.com/jmrg-link/nest-hexagonal-adapters/blob/main/docs/capturas/queries-graphql.md).
 
+### [GitOps Lab](https://github.com/jmrg-link/gitops-lab) · [diagramas](https://jmrg-link.github.io/gitops-lab/) · [capturas](https://github.com/jmrg-link/gitops-lab/blob/main/docs/capturas/README.md)
+
+Un laboratorio en mi Mac para practicar todo el camino de un backend hasta Kubernetes: lo que está en Git es lo que corre, y un commit es la única forma de cambiarlo.
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm_4-0F1689?style=flat&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat&logo=argo&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat&logo=traefikproxy&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS_12-E0234E?style=flat&logo=nestjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+
+- Argo CD sincroniza dos aplicaciones desde el repositorio: un `kubectl scale` hecho a mano se deshace solo, y volver atrás es un `git revert`.
+- Charts de Helm propios con rolling update sin cortes y migraciones como hook antes de cada versión, para que el esquema nunca se quede por detrás del código.
+- Traefik recibe el tráfico en `localhost:80` y `:443`, limita las peticiones con un 429 y borra las cabeceras que identifican al cliente antes de llegar a la API.
+- La API de Nest Hexagonal Adapters desplegada de verdad, con su administrador y sus datos de ejemplo cargados por un Job, y los secretos fuera de Git.
+- Redis, MongoDB y SQL Server en Docker Compose, con healthchecks que ordenan el arranque.
+
 ### [Express Clean Code Template](https://github.com/jmrg-link/express_clean_code_template)
 
 Plantilla base para proyectos destinados a producción.
