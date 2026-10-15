@@ -126,6 +126,25 @@ Formación en prevención de riesgos laborales con gafas VR simuladas en el nave
 - La escena se genera con scripts de Blender sobre assets CC0 y la fotografía HDRI de una nave real.
 - El servidor corrige cada decisión y no revela la respuesta hasta cerrar la sesión.
 
+### [Nest Hexagonal Adapters](https://github.com/jmrg-link/nest-hexagonal-adapters) · [diagramas](https://jmrg-link.github.io/nest-hexagonal-adapters/) · [API REST](https://jmrg-link.github.io/nest-hexagonal-adapters/api/)
+
+API de usuarios y pedidos con NestJS 12 que funciona con MongoDB o con PostgreSQL y se consulta por REST o por GraphQL.
+
+![NestJS](https://img.shields.io/badge/NestJS_12-E0234E?style=flat&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-4A5568?style=flat&logo=prisma&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=sequelize&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
+
+- Arquitectura hexagonal con cuatro adaptadores de persistencia (memoria, Mongoose, Prisma y Sequelize) que se eligen con una variable de entorno. Los cuatro pasan el mismo contrato de tests.
+- REST y GraphQL comparten casos de uso, validación con Zod y traducción de errores: un error de negocio lleva el mismo código en Problem Details (RFC 9457) y en `extensions.code`.
+- Autenticación con JWT, roles y control de propiedad de cada recurso; contraseñas con scrypt.
+- Índices compuestos según la regla ESR, los mismos en MongoDB y en PostgreSQL.
+- Documentado con [diagramas interactivos](https://jmrg-link.github.io/nest-hexagonal-adapters/), el [contrato REST en Swagger](https://jmrg-link.github.io/nest-hexagonal-adapters/api/) y las [operaciones GraphQL con capturas](https://github.com/jmrg-link/nest-hexagonal-adapters/blob/main/docs/capturas/queries-graphql.md).
+
 ### [Express Clean Code Template](https://github.com/jmrg-link/express_clean_code_template)
 
 Plantilla base para proyectos destinados a producción.
